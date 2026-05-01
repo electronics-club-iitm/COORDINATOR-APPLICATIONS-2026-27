@@ -1,50 +1,28 @@
 # COORDINATOR-APPLICATIONS-2026-27
 
 ## Overview
-This repository contains coordinator applications and digital circuit projects using Logisim-evolution for the 2026-27 selection process.
+This repository contains coordinator application and digital circuit projects using Logisim-evolution for the 2026-27 selection process.
 
-## Prerequisites for the Logisim Questions
-- **Java 11 or later** (required for Logisim-evolution)
-- **Git** (for cloning the repository)
-
-## Setup Instructions
-
-### 1. Install Java
-Logisim-evolution requires Java to run. If you don't have Java installed:
-
-**Windows:**
-- Download from: https://adoptium.net/ or https://www.oracle.com/java/technologies/downloads/
-- Follow the installer instructions
-- Verify installation:
-  ```powershell
-  java -version
-  ```
-## macOS/Linux:
-
+## Setup Tools
+- **Git**
+- **Logisim-Evolution**:
 ```
-sudo apt-get install default-jre  # Linux
-brew install openjdk              # macOS
+https://github.com/logisim-evolution/logisim-evolution/releases
 ```
 
-## 2. Download Logisim-Evolution
+## Circuit Files
 
-```
-Visit: https://github.com/logisim-evolution/logisim-evolution/releases
-Download the latest release (.jar file)
-Save it to a convenient location
-```
+- AlternateUniverse.circ
+- WhatTheHell.circ
 
-## 3. Clone This Repository
+
+## Clone This Repository
 
 ```
 git clone https://github.com/electronics-club-iitm/COORDINATOR-APPLICATIONS-2026-27.git
 cd COORDINATOR-APPLICATIONS-2026-27
 ```
 
-## Circuit Files
-
-CoordQuestion.circ - Main coordinator application circuit
-
-
-## Documentation
-For detailed Logisim-evolution documentation, visit: https://github.com/logisim-evolution/logisim-evolution
+## Submission Format
+- Zip your password-protected application with all relevant files as \<ROLLNO\>_\<Name\>_EC_Coord_App.zip, submit it via a Github Pull Request from a new branch named with your Roll No.
+- And also fill in your details in this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScNssHMK_84ASAk7yvnUZzfiTC6rn0J7bUU6esuJBV4ZBs79w/viewform).
