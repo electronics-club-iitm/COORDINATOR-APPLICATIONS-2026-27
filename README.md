@@ -3,7 +3,7 @@
 ## Overview
 This repository contains coordinator applications and digital circuit projects using Logisim-evolution for the 2026-27 selection process.
 
-## Prerequisites
+## Prerequisites for the Logisim Questions
 - **Java 11 or later** (required for Logisim-evolution)
 - **Git** (for cloning the repository)
 
@@ -39,27 +39,6 @@ Save it to a convenient location
 ```
 git clone https://github.com/electronics-club-iitm/COORDINATOR-APPLICATIONS-2026-27.git
 cd COORDINATOR-APPLICATIONS-2026-27
-```
-
-## 4. Running Circuit Files
-
-```
-Method 1: Direct Execution
-
-Method 2: Using Logisim GUI
-
-Double-click the Logisim .jar file
-File → Open → Select your .circ file
-```
-
-## 5. Running Simulations
-
-```
-Open a circuit file (.circ)
-Navigate to Simulate menu
-Enable Ticks enabled to run the simulation
-Use Probe tool to observe circuit outputs
-Click on input components to toggle switches
 ```
 
 ## Circuit Files
