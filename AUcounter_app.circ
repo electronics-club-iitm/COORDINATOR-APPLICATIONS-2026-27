@@ -80,33 +80,120 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="128.0"/>
-    <comp lib="0" loc="(190,370)" name="Clock">
+    <comp lib="0" loc="(1100,400)" name="Clock">
       <a name="appearance" val="classic"/>
+      <a name="highDuration" val="4"/>
       <a name="label" val="clk"/>
+      <a name="lowDuration" val="4"/>
     </comp>
-    <comp lib="0" loc="(200,400)" name="Pin">
+    <comp lib="0" loc="(1110,430)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="reset"/>
     </comp>
-    <comp lib="6" loc="(740,350)" name="LED">
+    <comp lib="0" loc="(1320,240)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+    </comp>
+    <comp lib="1" loc="(660,450)" name="AND Gate"/>
+    <comp lib="1" loc="(710,560)" name="XOR Gate"/>
+    <comp lib="1" loc="(810,450)" name="XNOR Gate"/>
+    <comp lib="5" loc="(580,290)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp lib="5" loc="(710,290)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp lib="5" loc="(840,290)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp lib="6" loc="(1650,380)" name="LED">
       <a name="color" val="#00ff0d"/>
       <a name="offcolor" val="#d1d1d1"/>
     </comp>
-    <comp lib="9" loc="(275,220)" name="Text">
-      <a name="text" val="Implement your counter here"/>
-    </comp>
-    <comp lib="9" loc="(525,490)" name="Text">
+    <comp lib="9" loc="(1435,520)" name="Text">
       <a name="text" val="If you implement the counter correctly then the LED should be lit for all the clock cycles"/>
     </comp>
-    <comp loc="(700,350)" name="Verifier"/>
-    <wire from="(190,370)" to="(480,370)"/>
-    <wire from="(200,400)" to="(210,400)"/>
-    <wire from="(210,390)" to="(210,400)"/>
-    <wire from="(210,390)" to="(480,390)"/>
-    <wire from="(410,210)" to="(440,210)"/>
-    <wire from="(440,210)" to="(440,350)"/>
-    <wire from="(440,350)" to="(480,350)"/>
-    <wire from="(700,350)" to="(740,350)"/>
+    <comp loc="(1610,380)" name="Verifier"/>
+    <wire from="(1020,210)" to="(1020,560)"/>
+    <wire from="(1100,400)" to="(1170,400)"/>
+    <wire from="(1110,430)" to="(1120,430)"/>
+    <wire from="(1120,420)" to="(1120,430)"/>
+    <wire from="(1120,420)" to="(1390,420)"/>
+    <wire from="(1120,430)" to="(1120,480)"/>
+    <wire from="(1170,360)" to="(1170,400)"/>
+    <wire from="(1170,400)" to="(1390,400)"/>
+    <wire from="(1210,120)" to="(1210,270)"/>
+    <wire from="(1210,270)" to="(1300,270)"/>
+    <wire from="(1220,260)" to="(1300,260)"/>
+    <wire from="(1220,80)" to="(1220,260)"/>
+    <wire from="(1230,250)" to="(1300,250)"/>
+    <wire from="(1230,50)" to="(1230,250)"/>
+    <wire from="(1320,240)" to="(1350,240)"/>
+    <wire from="(1350,240)" to="(1350,380)"/>
+    <wire from="(1350,380)" to="(1390,380)"/>
+    <wire from="(1610,380)" to="(1650,380)"/>
+    <wire from="(510,250)" to="(510,300)"/>
+    <wire from="(510,250)" to="(650,250)"/>
+    <wire from="(510,300)" to="(510,470)"/>
+    <wire from="(510,300)" to="(570,300)"/>
+    <wire from="(510,470)" to="(610,470)"/>
+    <wire from="(570,340)" to="(570,360)"/>
+    <wire from="(570,360)" to="(700,360)"/>
+    <wire from="(580,410)" to="(580,430)"/>
+    <wire from="(580,410)" to="(720,410)"/>
+    <wire from="(580,430)" to="(610,430)"/>
+    <wire from="(600,280)" to="(600,290)"/>
+    <wire from="(600,280)" to="(670,280)"/>
+    <wire from="(600,510)" to="(600,580)"/>
+    <wire from="(600,510)" to="(930,510)"/>
+    <wire from="(600,580)" to="(650,580)"/>
+    <wire from="(630,300)" to="(640,300)"/>
+    <wire from="(630,340)" to="(650,340)"/>
+    <wire from="(630,490)" to="(630,540)"/>
+    <wire from="(630,490)" to="(680,490)"/>
+    <wire from="(630,540)" to="(650,540)"/>
+    <wire from="(640,300)" to="(660,300)"/>
+    <wire from="(640,50)" to="(1230,50)"/>
+    <wire from="(640,50)" to="(640,300)"/>
+    <wire from="(650,250)" to="(650,340)"/>
+    <wire from="(660,300)" to="(660,420)"/>
+    <wire from="(660,420)" to="(700,420)"/>
+    <wire from="(660,450)" to="(680,450)"/>
+    <wire from="(670,280)" to="(670,370)"/>
+    <wire from="(670,370)" to="(730,370)"/>
+    <wire from="(680,300)" to="(680,380)"/>
+    <wire from="(680,300)" to="(700,300)"/>
+    <wire from="(680,380)" to="(820,380)"/>
+    <wire from="(680,450)" to="(680,490)"/>
+    <wire from="(700,340)" to="(700,360)"/>
+    <wire from="(700,360)" to="(830,360)"/>
+    <wire from="(700,420)" to="(700,470)"/>
+    <wire from="(700,470)" to="(740,470)"/>
+    <wire from="(710,560)" to="(1020,560)"/>
+    <wire from="(720,410)" to="(720,430)"/>
+    <wire from="(720,410)" to="(790,410)"/>
+    <wire from="(720,430)" to="(740,430)"/>
+    <wire from="(730,350)" to="(730,370)"/>
+    <wire from="(730,370)" to="(860,370)"/>
+    <wire from="(760,300)" to="(790,300)"/>
+    <wire from="(790,300)" to="(790,410)"/>
+    <wire from="(790,80)" to="(1220,80)"/>
+    <wire from="(790,80)" to="(790,300)"/>
+    <wire from="(810,450)" to="(820,450)"/>
+    <wire from="(820,380)" to="(820,450)"/>
+    <wire from="(830,210)" to="(1020,210)"/>
+    <wire from="(830,210)" to="(830,300)"/>
+    <wire from="(830,340)" to="(830,360)"/>
+    <wire from="(830,360)" to="(1170,360)"/>
+    <wire from="(860,350)" to="(860,370)"/>
+    <wire from="(860,370)" to="(990,370)"/>
+    <wire from="(890,300)" to="(930,300)"/>
+    <wire from="(930,120)" to="(1210,120)"/>
+    <wire from="(930,120)" to="(930,300)"/>
+    <wire from="(930,300)" to="(930,510)"/>
+    <wire from="(990,370)" to="(990,480)"/>
+    <wire from="(990,480)" to="(1120,480)"/>
   </circuit>
   <circuit name="Verifier">
     <a name="appearance" val="logisim_evolution"/>
